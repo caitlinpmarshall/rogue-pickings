@@ -1,0 +1,176 @@
+/***** BASE STYLES ******/
+header, main {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    margin: 50px 35px 0 35px;
+}
+
+/***** GRID ******/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER ******/
+header {
+    height: 110px;
+}
+
+header h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+header span {
+    color: #77a466;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    color: #77a466;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px;
+    text-transform: uppercase;
+
+}
+
+/***** TOP *****/
+.top img {
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+}
+
+.top h2 {
+    color: #77a466;
+    font-size: 18px;
+    padding: 10px 0 10px 0;
+    text-transform: uppercase;
+}
+
+.top p {
+    font-size: 16px;
+    line-height: 25px;
+    padding: 0 20px 15px 0;
+    width: 1200px;
+}
+
+/***** BOTTOM *****/
+.bottom .third-width {
+    border-top: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
+    height: 200px;
+}
+
+/***** SECTION ONE *****/
+#section-one h3 {
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 10px 25px 0 0;
+}
+
+#section-one ul {
+    margin: 0;
+    padding: 0;
+}
+
+#section-one li {
+    color: #77a466;
+    font-size: 16px;
+    list-style: none;
+    padding: 10px 0 10px 0;
+}
+
+/***** SECTION TWO *****/
+
+#section-two {
+    border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+}
+
+#section-two h3 {
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 10px 25px 0 30px;
+}
+
+#section-two p {
+    padding: 0 20px 0 30px;
+}
+
+/***** SECTION THREE *****/
+#section-three h3 {
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 10px 25px 0 30px;
+}
+
+#section-three p {
+    padding: 0 30px 0 30px;
+}
+
+/***** ROGUE PAGE ORIGINAL FOOTER ******/
+#rogue-footer {
+    clear: both;
+}
+
+#rogue-footer p {
+    font-weight: 700;
+    padding: 15px 0 15px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#rogue-footer span {
+    color: #77a466;
+    letter-spacing: 1px;
+    font-family: 'Galada', cursive;
+    text-transform: lowercase;
+
+}
+
+/***** RETURN HOME FOOTER *****/
+footer {
+    background: #028090;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #ffffff;
+    padding: 10px;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    text-transform: capitalize;
+    word-spacing: 3px;
+
+}
+
+footer p a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
