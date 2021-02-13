@@ -5,9 +5,6 @@ html {
 body {
 	font-size: 1em;
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 .container{
@@ -168,7 +165,7 @@ header nav ul li a{
 }
 
 /*The widths are in a percentage!*/
-footer {
+#rogue-footer {
 	border-top: 2px solid #eee;
 	margin: 0 auto;
 	text-align: center;
@@ -177,12 +174,38 @@ footer {
 	align-items: center;
 	width: 100%;
 }
-footer span {
+#rogue-footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
 	color: #77a466;
 	font-size: .875em;
 }
+
+/***** RETURN HOME FOOTER *****/
+footer {
+    background: #028090;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+footer p {
+    color: #ffffff;
+    padding: 10px;
+    font-size: 26px;
+    line-height: 32px;
+}
+
+footer p a {
+    font-family: 'Libre Baskerville', serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+
 
 @media screen and (min-width: 768px) {
 	.bottom-section {
